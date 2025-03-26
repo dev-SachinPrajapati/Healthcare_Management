@@ -1,7 +1,7 @@
 "use server";
 
 import { ID, Query } from "node-appwrite";
-import { InputFile} from "node-appwrite/file";
+import { InputFile } from "node-appwrite/file";
 import { parseStringify } from "../utils";
 import {
   BUCKET_ID,
