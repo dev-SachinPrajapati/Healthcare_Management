@@ -46,7 +46,7 @@ export const PasskeyModal = () => {
         setOpen(true);
       }
     }
-  }, [encryptedKey]);
+  }, [encryptedKey, path, router]);
 
   const closeModal = () => {
     setOpen(false);
